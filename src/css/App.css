@@ -1,4 +1,4 @@
-@keyframes folderAnimation {
+@keyframes hoverAnimation {
   0% {
     animation-timing-function: ease-in;
   }
@@ -76,7 +76,7 @@
 }
 
 .folder img:hover {
-  animation: folderAnimation 1.1s both;
+  animation: hoverAnimation 1.1s forwards;
 }
 
 .folder h4 {

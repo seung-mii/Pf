@@ -27,6 +27,7 @@
 }
 
 .site .main img:hover,
+.skill .main img:hover,
 .award .main img:hover,
 .school .main img:hover,
 .project .main .projects:last-child img:hover {
@@ -120,13 +121,13 @@ header {
   color: #730202;
 }
 
-.minimize span:hover {
+/* .minimize span:hover {
   color: #975600;
 }
 
 .maximize span:hover {
   color: #056102;
-}
+} */
 
 /* main */
 .main {
