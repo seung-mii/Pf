@@ -1,3 +1,13 @@
+@keyframes folderAnimation {
+  0% {
+    transform: translateZ(-1400px) translateY(-700px) translateX(-900px) scale(0);
+  }
+
+  100% {
+    transform: translateZ(-50%) translateY(-50%) translateX(-50%) scale(1);
+  }
+}
+
 .site,
 .award,
 .school,
@@ -13,6 +23,20 @@
   border: 1px solid rgb(110, 110, 110);
   box-shadow: 3px 5px 30px 10px #00000059;
   border-radius: 15px;
+  animation: folderAnimation 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.site .main img:hover,
+.award .main img:hover,
+.school .main img:hover,
+.project .main .projects:last-child img:hover {
+  animation: none;
+  transform: scale(1.4);
+}
+
+.project .main img:hover {
+  animation: none;
+  transform: scale(1.8, 1.4);
 }
 
 .school {
@@ -89,17 +113,18 @@ header {
 .maximize span {
   font-size: 12px;
   font-weight: 600;
+  color: transparent;
 }
 
-.close span {
+.close span:hover {
   color: #730202;
 }
 
-.minimize span {
+.minimize span:hover {
   color: #975600;
 }
 
-.maximize span {
+.maximize span:hover {
   color: #056102;
 }
 
@@ -112,6 +137,7 @@ header {
   width: 155px;
   height: 220px;
   margin: 0px 8px;
+  transition: all 0.3s linear;
 }
 
 .main p {
