@@ -7,8 +7,6 @@ import '../css/folder.css';
 
 function Award({ folderOpen }) {
   const close = () => { folderOpen(false); };
-  const minimize = () => { folderOpen(false); };
-  const maximize = () => { folderOpen(false); };
 
   return (
     <div className="award">
@@ -17,10 +15,10 @@ function Award({ folderOpen }) {
           <button className="close" onClick={close}>
             <span class="material-symbols-rounded">close</span>
           </button>
-          <button className="minimize" onClick={minimize}>
+          <button className="minimize">
             <span class="material-symbols-rounded">remove</span>
           </button>
-          <button className="maximize" onClick={maximize}>
+          <button className="maximize">
             <span class="material-symbols-rounded">open_in_full</span>
           </button>
           <h1>수상 경력</h1>

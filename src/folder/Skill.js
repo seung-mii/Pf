@@ -10,8 +10,6 @@ import '../css/folder.css';
 
 function Skill({ folderOpen }) {
   const close = () => { folderOpen(false); };
-  const minimize = () => { folderOpen(false); };
-  const maximize = () => { folderOpen(false); };
 
   return (
     <div className="skill">
@@ -20,10 +18,10 @@ function Skill({ folderOpen }) {
           <button className="close" onClick={close}>
             <span class="material-symbols-rounded">close</span>
           </button>
-          <button className="minimize" onClick={minimize}>
+          <button className="minimize">
             <span class="material-symbols-rounded">remove</span>
           </button>
-          <button className="maximize" onClick={maximize}>
+          <button className="maximize">
             <span class="material-symbols-rounded">open_in_full</span>
           </button>
           <h1>다룰 수 있는 기술 스택</h1>
