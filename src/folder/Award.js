@@ -2,6 +2,7 @@ import React from 'react';
 import Skillspan from '../images/Skillspan_award.png';
 import KIS from '../images/KIS_award.png';
 import NF from '../images/NF_award.png';
+import KIS2 from '../images/KIS_award2.jpg';
 
 import '../css/folder.css';
 
@@ -29,8 +30,9 @@ function Award({ folderOpen }) {
           <img src={Skillspan} alt='Skillspan_award'/>
           <p>"EMSI 기반 Korean IT SkillBase 구축 및 SkillNER Prototype 설계"</p>
         </div>
-        <div className='crape'>
+        <div className='crape2'>
           <img src={KIS} alt='KIS_award' />
+          <img src={KIS2} alt='KIS_award2' />
           <p>"교통약자를 위한 TAGO API 기반 저상버스 정보 시스템"</p>
         </div>
         <div className='crape'>

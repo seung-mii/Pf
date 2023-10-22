@@ -3,6 +3,7 @@ import REACT from '../images/react_logo.png';
 import CSS from '../images/css_logo.svg';
 import HTML from '../images/html_logo.png';
 import JS from '../images/javascript_logo.png';
+import TS from '../images/typescript_logo.png';
 import STYLED from '../images/styled-components_logo.png';
 import FIGMA from '../images/figma_logo.png';
 
@@ -29,20 +30,24 @@ function Skill({ folderOpen }) {
       </header>
       <section className='main'>
         <div className='skills'>
-          <img src={REACT} alt='react_logo'/>
-          <p>React</p>
+          <img src={HTML} alt='html_logo'/>
+          <p>HTML</p>
         </div>
         <div className='skills'>
           <img src={CSS} alt='css_logo'/>
-          <p>Css</p>
-        </div>
-        <div className='skills'>
-          <img src={HTML} alt='html_logo'/>
-          <p>Html</p>
+          <p>CSS</p>
         </div>
         <div className='skills'>
           <img src={JS} alt='js_logo'/>
           <p>JavaScript</p>
+        </div>
+        <div className='skills'>
+          <img src={TS} alt='ts_logo'/>
+          <p>TypeScript</p>
+        </div>
+        <div className='skills'>
+          <img src={REACT} alt='react_logo'/>
+          <p>React</p>
         </div>
         <div className='skills'>
           <img src={STYLED} alt='styled-components_logo'/>

@@ -46,7 +46,7 @@
 }
 
 .skill {
-  width: 700px;
+  width: 800px;
   height: 550px;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .award {
-  width: 970px;
+  width: 1290px;
   height: 565px;
 }
 
@@ -230,11 +230,16 @@ header {
 /* award */
 .award .crape {
   display: inline-block;
-  width: 280px;
-  margin: 0px 10px;
+  width: 285px;
+  margin: 0px;
 }
 
-.award .crape img {
+.award .crape2 {
+  display: inline-block;
+  width: 600px;
+}
+
+.award img {
   width: 250px;
   height: 350px;
   cursor: default;
